@@ -1,2 +1,2 @@
-📥 **Download the Python01 Subject File (PDF):**  
-[Click here to download](https://raw.githubusercontent.com/username/repo/main/python01.pdf)
+📘 **Open the Python Subject File (python01.pdf):**  
+[Click here to open python01.pdf](python01.pdf)
