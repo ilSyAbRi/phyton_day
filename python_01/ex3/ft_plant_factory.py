@@ -9,14 +9,14 @@ class Plant:
 
 
 plants_data = [
-    ("Rose", 25, 30),
-    ("Oak", 200, 365),
-    ("Cactus", 5, 90),
-    ("Sunflower", 80, 45),
-    ("Fern", 15, 120)
+    Plant("Rose", 25, 30),
+    Plant("Oak", 200, 365),
+    Plant("Cactus", 5, 90),
+    Plant("Sunflower", 80, 45),
+    Plant("Fern", 15, 120)
 ]
-plants = [Plant(name, height, age) for name, height, age in plants_data]
+
 print("=== Plant Factory Output ===")
-for p in plants:
+for p in plants_data:
     print(p.get_info())
 print("\nTotal plants created: 5")
