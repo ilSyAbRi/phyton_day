@@ -30,6 +30,7 @@ This approach demonstrates **code reuse** and avoids duplication of shared trait
 
 ---
 
+<br>
 
 ## 💡 Learning Points
 
@@ -42,6 +43,8 @@ This approach demonstrates **code reuse** and avoids duplication of shared trait
 
 ---
 
+<br>
+
 ## 📝 Notes
 
 - Vegetables don’t have extra actions; they just show info  
@@ -50,6 +53,8 @@ This approach demonstrates **code reuse** and avoids duplication of shared trait
 - `show_info()` methods help keep output clean and consistent  
 
 ---
+
+<br>
 
 ## 📌 How to Run
 
