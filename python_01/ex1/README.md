@@ -29,6 +29,7 @@ We created a **Plant class** to store information for multiple plants instead of
       self.height = height
       self.age = age
 ```
+
 ---
 
 ## File
