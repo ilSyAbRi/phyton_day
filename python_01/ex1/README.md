@@ -16,7 +16,19 @@ We created a **Plant class** to store information for multiple plants instead of
 - **Reusability**: Creating new plants is easy — just make new objects without rewriting code.  
 - **Data Organization**: Using classes keeps all plant data together, making code **clean, structured, and maintainable**.  
 - **Practical Python skills**: Learned to create objects, access attributes, call methods, and print formatted output.
+- **`__init__` (Constructor method)**:  
+  The `__init__` method runs automatically when a new object is created from the class.  
+  It is used to give the object its starting data, such as `name`, `height`, and `age`.
 
+  In other words, `__init__` prepares the object so it is ready to be used immediately after creation.
+
+  Example:
+  ```python
+  def __init__(self, name, height, age):
+      self.name = name
+      self.height = height
+      self.age = age
+```
 ---
 
 ## File
