@@ -1,24 +1,65 @@
- 🌱 Exercise 5 – Specialized Plant Types
+# 🌿 Exercise 5 – Specialized Plant Types
 
 This exercise practices **Object-Oriented Programming (OOP)** in Python.  
-We created a base `Plant` class with common attributes: `name`, `height`, and `age`. <br>
-Then we made child classes for specialized plants: <br>
+It demonstrates how a base class can store shared traits while child classes handle unique features. <br>
 
-- **🌸 Flower** → adds `color` and a method `bloom()`  
-- **🌲 Tree** → adds `trunk_diameter` and a method `produce_shade()`  
-- **🥕 Vegetable** → adds `harvest_season` and `nutritional_value` (no extra method)  
+The **base class `Plant`** contains common attributes:  
+- `name`  
+- `height`  
+- `age` <br>
 
-We also created **multiple instances** of each type to see how objects store their own data. <br>
-`super()` is used in children to initialize the parent attributes. <br>
-Output is organized with methods like `show_info()` and f-strings. <br>
-Flower and Tree have actions, Vegetable just shows info. <br>
-This shows how shared traits stay in the parent while unique traits go in the children, avoiding code repetition. <br>
+Specialized child classes add their own features:  
 
-<br>
+- **🌸 Flower**  
+  - Attribute: `color`  
+  - Method: `bloom()` → shows the flower blooming  
+
+- **🌲 Tree**  
+  - Attribute: `trunk_diameter`  
+  - Method: `produce_shade()` → calculates and prints shade area  
+
+- **🥕 Vegetable**  
+  - Attributes: `harvest_season`, `nutritional_value`  
+  - No extra method, just displays info  
+
+Multiple **instances** are created for each type to show how objects hold their own data. <br>
+`super()` is used in child classes to initialize the parent attributes. <br>
+Methods like `show_info()` and f-strings keep the output clean and readable. <br>
+Flower and Tree have actions, while Vegetable only shows information. <br>
+This approach demonstrates **code reuse** and avoids duplication of shared traits. <br>
+
+---
+
+
+## 💡 Learning Points
+
+- Understanding **inheritance** and parent-child relationships  
+- Using **`super()`** to initialize parent attributes in children  
+- Adding **unique traits and methods** to child classes  
+- Creating **multiple instances** to test OOP behavior  
+- Using **methods for actions** like `bloom()` and `produce_shade()`  
+- Avoiding **code duplication** for shared attributes  
+
+---
+
+## 📝 Notes
+
+- Vegetables don’t have extra actions; they just show info  
+- Tree’s `produce_shade()` can calculate shade dynamically using `trunk_diameter`  
+- Flower’s `bloom()` is an example of an action method  
+- `show_info()` methods help keep output clean and consistent  
+
+---
+
+## 📌 How to Run
+
+```py
+python3 ft_plant_types.py
+```
 
 ## 🌟 Example Output
 
-```
+```py
 === Garden Plant Types ===
 
 Rose (Flower): 25cm, 30 days, red color
@@ -38,4 +79,6 @@ Tomato is rich in vitamin C<br>
 
 Carrot (Vegetable): 30cm, 60 days, spring harvest
 Carrot is rich in vitamin A
+
 ```
+
