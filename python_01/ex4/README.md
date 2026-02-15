@@ -3,6 +3,8 @@
 **Objective:**<br>
 Create a secure Python system that protects plant data from accidental corruption using classes and proper encapsulation.
 
+<br>
+
 ---
 
 ## What This Code Does & What I Learned
@@ -29,9 +31,15 @@ Create a secure Python system that protects plant data from accidental corruptio
 - **Interactive mode lesson:**<br>
   Even in `python -i`, private variables cannot be accessed directly — only through getters and setters.
 
+<br>
+
 ---
 
+<br>
+
 ## How It Works
+
+<br>
 
 1. A `SecurePlant` object is created with a name.  
 2. Use `set_height()` and `set_age()` to safely update plant data.  
@@ -39,7 +47,10 @@ Create a secure Python system that protects plant data from accidental corruptio
 4. `get_height()` and `get_age()` allow checking current values.  
 5. The current plant data is printed in a clean, readable format at the end.  
 
+<br>
 ---
+
+<br>
 
 ## Example Output
 
@@ -54,6 +65,7 @@ Security: Negative height rejected
 
 Current plant: Rose (25cm, 30 days)
 ```
+<br>
 
 ---
 
@@ -64,4 +76,3 @@ This exercise reinforced:<br>
 - **Clear Python coding practices**  
 
 It also gave practical insight into **why encapsulation matters**, even in a simple plant management system.
-
