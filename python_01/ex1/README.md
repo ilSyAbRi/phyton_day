@@ -22,8 +22,9 @@ We created a **Plant class** to store information for multiple plants instead of
 
   In other words, `__init__` prepares the object so it is ready to be used immediately after creation.
 
-  Example:
-  ```python
+## Example:
+
+```python
   def __init__(self, name, height, age):
       self.name = name
       self.height = height
@@ -35,6 +36,7 @@ We created a **Plant class** to store information for multiple plants instead of
 
 
 ## File
+
 `ft_garden_data.py` – contains the `Plant` class and example plant objects.
 
  ---
