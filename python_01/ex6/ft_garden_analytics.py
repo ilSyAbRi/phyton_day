@@ -30,6 +30,11 @@ class GardenManager:
     def grow_all_plants(self):
         for plant in self.plants:
             plant.height += 1
+    class GardenStats:
+        def __init___(self, garden):
+            self.garden = garden
+        def total_growth(self):
+            return sum
 
 rose = FloweringPlant("Rose", 25, "Red")
 sunflower = PrizeFlower("Sunflower", 50, "Yellow", 10)
