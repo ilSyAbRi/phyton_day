@@ -1,3 +1,14 @@
+
+# Garden Analytics
+
+```
+Build a comprehensive garden data analytics platform that processes and analyzes garden data. This system needs to handle complex data relationships and provide detailed
+analytics using nested components and inheritance chains.
+
+```
+
+---
+
 ## What is a nested class?
 
 > A nested class is just a class defined inside another class.
