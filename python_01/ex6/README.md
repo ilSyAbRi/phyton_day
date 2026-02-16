@@ -1,5 +1,5 @@
 # 🌱Garden Analytics
-
+“I’ll leave this exercise for later.” 
 ```
 Build a comprehensive garden data analytics platform that processes and analyzes garden data.
 This system needs to handle complex data relationships and provide detailed
