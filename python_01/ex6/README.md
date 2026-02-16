@@ -1,5 +1,4 @@
-
-# Garden Analytics
+# 🌱Garden Analytics
 
 ```
 Build a comprehensive garden data analytics platform that processes and analyzes garden data.
