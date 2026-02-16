@@ -1,6 +1,6 @@
 ## What is a nested class?
 
--> A nested class is just a class defined inside another class.
+> A nested class is just a class defined inside another class.
 ```py
 class GardenManager:
     
@@ -44,7 +44,7 @@ Plant types
 
 - Access instance variables like self.plants
 
--> Example: add_plant(), grow_all_plants(), show_report()
+> Example: add_plant(), grow_all_plants(), show_report()
 
 - Use when you want to affect only one garden
 
@@ -54,7 +54,7 @@ Plant types
 
 - Access class variables like all_gardens
 
--> Example: total_gardens(), create_garden_network()
+> Example: total_gardens(), create_garden_network()
 
 - Use when you want to affect or get info about all gardens
 
@@ -64,7 +64,7 @@ Plant types
 
 - Useful for utility functions inside the class
 
--> Example: validate_height()
+> Example: validate_height()
 
 - Use for helpers that don’t need garden data
 
@@ -89,7 +89,7 @@ PrizeFlower      → adds prize_points
 
 - PrizeFlower → child of FloweringPlant (grandchild of Plant)
 
--> Because of this, PrizeFlower inherits everything from both its parent and grandparent.
+> Because of this, PrizeFlower inherits everything from both its parent and grandparent.
 
 ## Class Variable (shared by all objects of GardenManager)
 
