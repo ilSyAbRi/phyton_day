@@ -73,7 +73,7 @@ except ValueError:
 
 - Program continues running after handling the error.
 
-## Python Exceptions – ValueError (other exp)
+### Python Exceptions – ValueError (Other explanation)
 
 `ValueError` is a built-in **exception class** in Python.
 
