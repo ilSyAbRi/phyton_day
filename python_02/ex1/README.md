@@ -11,6 +11,8 @@ In Python, programs can encounter errors, called **exceptions**. To prevent cras
 
 **Difference Between `=` and `as`:**
 
+> "as is used only in an except block to give a name to the error object Python just created."
+
 - **`=` (assignment)**: Gives a name to a class or value. Nothing happens, no error is created.  
   ```python
   e = ValueError  # e now points to the class ValueError itself
@@ -26,21 +28,21 @@ except ValueError as e:
 
 #### Key Points:
 
-    Using as e allows you to inspect the error object or print its message without crashing the program.
+- Using as e allows you to inspect the error object or print its message without crashing the program.
 
-    You can also use type(e) to check which blueprint/class was used to create the error object.
+- You can also use type(e) to check which blueprint/class was used to create the error object.
 
 #### Analogy:
 
-    ValueError = blueprint of a house
+- ValueError = blueprint of a house
 
-    Python raises an error → builds the house (error object)
+- Python raises an error → builds the house (error object)
 
-    as e = gives a name to the house so you can look inside
+- as e = gives a name to the house so you can look inside
 
-    print(e) = see the contents of the house
+- print(e) = see the contents of the house
 
-    type(e) = see which blueprint was used to build the house
+- type(e) = see which blueprint was used to build the house
 
 #### Example:
 
