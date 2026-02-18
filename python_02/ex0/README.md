@@ -73,6 +73,20 @@ except ValueError:
 
 - Program continues running after handling the error.
 
+## Python Exceptions – ValueError (other exp)
+
+`ValueError` is a built-in **exception class** in Python.
+
+When an error happens (for example `int("abc")`), Python creates a **special exception object** from this class.
+
+Using `try / except ValueError` allows the program to **catch and handle the error** instead of crashing.
+
+In short:
+- `ValueError` = class  
+- error created = object  
+- `except ValueError` catches the object  
+- program continues safely
+
 ---
 
 
