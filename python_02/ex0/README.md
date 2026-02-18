@@ -56,8 +56,27 @@ This document summarizes all the key theory studied so far for handling agricult
 ### Definition
 - `ValueError` is a **built-in Python exception type**.  
 - It happens when a function receives a value that is **not valid for its operation**.  
+### Example
+```python
+int("abc")  # raises ValueError because "abc" is not a number
 
-5️⃣ Summary of Key Points
+Usage with try/except
+
+try:
+    temp = int("abc")
+except ValueError:
+    print("Error: not a valid number")
+```
+- try attempts the conversion.
+
+- except ValueError catches the exception object and handles it safely.
+
+- Program continues running after handling the error.
+
+---
+
+
+## 5️⃣ Summary of Key Points
 
 - try → attempt code that might fail.
 
