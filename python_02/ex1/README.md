@@ -43,7 +43,7 @@ d["missing_plant"]
 
 ---
 
-### Handling Exceptions in Python
+### (: Handling Exceptions in Python
 
 In Python, programs can encounter errors, called **exceptions**. To prevent crashes, we use `try` and `except`:
 
@@ -82,6 +82,7 @@ except ValueError as e:
 - You can also use type(e) to check which blueprint/class was used to create the error object.
 
 <br>
+
 ---
 
 #### Analogy:
@@ -95,8 +96,11 @@ except ValueError as e:
 - print(e) = see the contents of the house
 
 - type(e) = see which blueprint was used to build the house
+
 <br>
+
 ---
+
 #### Example:
 
 ```py
