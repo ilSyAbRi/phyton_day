@@ -1,20 +1,22 @@
-# 📘 Dictionary and KeyError (Exercise 1)
+# 🌱 Exercise 1 – Different Types of Problems
 
-A **dictionary** in Python is a built-in data structure that stores data as  
-**key–value pairs**. It allows fast access to values using unique keys.
+This exercise introduces Python exception handling using `try` and `except`.
 
-Example:
-d = {"plant": "rose"}
+The goal is to demonstrate how different types of runtime errors can occur and how they can be handled safely without stopping the program.
 
-- `plant` → key  
-- `rose` → value  
+The program shows and catches the following exceptions:
+- **ValueError** – raised when invalid data is given (for example, converting `"abc"` to an integer)
+- **ZeroDivisionError** – raised when dividing by zero
+- **FileNotFoundError** – raised when trying to open a file that does not exist
+- **KeyError** – raised when accessing a missing key in a dictionary
 
-Values are retrieved by referencing their key:
-d["plant"]
+The exercise also demonstrates how multiple exception types can be caught using a single `except` block.
 
-When a program attempts to access a key that does not exist in the dictionary:
-d["missing_plant"]
-
+Main objectives:
+- Understand why Python uses different exception types
+- Learn how to catch and handle each error correctly
+- Ensure the program continues running after errors occur
+- Practice structured error handling with `try / except`
 
 ### 📘 Dictionary and KeyError (Exercise 1)
 
