@@ -1,3 +1,39 @@
+# 📘 Dictionary and KeyError (Exercise 1)
+
+A **dictionary** in Python is a built-in data structure that stores data as  
+**key–value pairs**. It allows fast access to values using unique keys.
+
+Example:
+d = {"plant": "rose"}
+
+- `plant` → key  
+- `rose` → value  
+
+Values are retrieved by referencing their key:
+d["plant"]
+
+When a program attempts to access a key that does not exist in the dictionary:
+d["missing_plant"]
+
+
+### 📘 Dictionary and KeyError (Exercise 1)
+
+A **dictionary** in Python is a built-in data structure that stores data as  
+**key–value pairs**. It allows fast access to values using unique keys.
+
+Example:
+d = {"plant": "rose"}
+
+- `plant` → key  
+- `rose` → value  
+
+Values are retrieved by referencing their key:
+d["plant"]
+
+When a program attempts to access a key that does not exist in the dictionary:
+d["missing_plant"]
+
+
 ### Handling Exceptions in Python
 
 In Python, programs can encounter errors, called **exceptions**. To prevent crashes, we use `try` and `except`:
