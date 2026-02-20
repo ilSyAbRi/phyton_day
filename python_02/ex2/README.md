@@ -1,4 +1,7 @@
+# Exercise 2: Making Your Own Error Types
 
+Sometimes the built-in Python errors aren’t specific enough for your garden program.
+You can create your own error types to make your code clearer and more helpful.
 
 ---
 
