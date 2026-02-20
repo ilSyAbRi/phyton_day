@@ -1,3 +1,5 @@
+This exercise is about validating input data and raising custom ValueError exceptions when values are incorrect, then catching and handling those errors using try / except.
+
 The `finally` block is part of exception handling and **always executes**, whether an error occurs or not.  
 It does not clean anything automatically, but it is used to place **cleanup code** (such as closing a system or releasing resources).
 
