@@ -1,3 +1,9 @@
-**`raise`**: stops the function and sends an error to the caller; can be used alone.  
-- **`try/except`**: catches errors safely; can be anywhere in the call stack.  
-- `raise` + `try/except` together let you **detect problems and handle them without crashing**.
+## Exercise 4 – Raising Your Own Errors
+- **`raise`** stops the function and sends an error to the caller; can be used alone.  
+- **`try/except`** catches errors safely; can be anywhere in the call stack.  
+- Combining `raise` + `try/except` lets you **detect problems and handle them without crashing**.  
+- You can use `raise` with **any condition you consider an error**, for example:  
+  - If a value is above a certain number (e.g., water level > 20)  
+  - If a value is below a minimum  
+  - Any custom rule your program requires  
+- Example: invalid plant name, water level, or sunlight hours triggers `ValueError` and is caught in a test function.
