@@ -4,7 +4,12 @@
 This project teaches how to build robust and fault-tolerant data pipelines for smart agriculture systems.  
 You will process agricultural sensor data (temperature, humidity, soil moisture, etc.) and learn how to handle real-world farming problems safely.
 
-Each exercise builds a part of a complete agricultural monitoring system, from basic sensor validation to full data monitoring and alerts.
+- Each exercise builds a part of a complete agricultural monitoring system, from basic sensor validation to full data monitoring and alerts.
+
+### Day 02 Python Subject
+
+This is the subject for **Day 02** in Python.  
+[Click here to download the PDF](subject_py02.pdf)
 
 ---
 
